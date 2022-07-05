@@ -1,0 +1,145 @@
+header {
+    background-image: url('https://images.fpt.shop/unsafe/fit-in/filters:quality(80):fill(transparent)/fptshop.com.vn/Uploads/Originals/2022/6/30/637922285861673419_banner-desk-header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+h2,h3{ color: #fff}
+
+.header-top {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(240, 129, 33, 0.3);
+}
+.sec_1{
+    background-image:url('https://cdn.tgdd.vn/Files/2020/10/23/1301446/resonance_blue_light-1111_600x648.png');
+}
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav li span {
+    padding-left: 5px;
+}
+
+li a {
+    padding: 20px;
+    color: red;
+    background-color:white;
+    text-decoration: none;;
+}
+.cart a {
+    background-color:#e16641;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container,
+.container-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;;
+}
+.image {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.add-cart {
+    position: absolute;
+    width: 100%;
+    background-color:rgb(195, 22, 22);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius:2px;
+}
+.image:hover .cart1,
+.image:hover .cart2 {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+.container-products {
+    max-width: 700px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.product-header {
+    width: 200%;
+    max-width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+.product-title {
+    width: 45%;
+    border-bottom: 1px solid lightgray;
+
+}
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products img {
+    width: 75px;
+}
+
+
